@@ -14,42 +14,57 @@ local redzlib = {
 	Themes = {
 	Darker = {
 	["Color Hub 1"] = ColorSequence.new({
-		ColorSequenceKeypoint.new(0.00, Color3.fromRGB(15, 15, 15)),
-		ColorSequenceKeypoint.new(0.50, Color3.fromRGB(25, 25, 25)),
-		ColorSequenceKeypoint.new(1.00, Color3.fromRGB(15, 15, 15))
+		ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 15, 25)),
+		ColorSequenceKeypoint.new(0.50, Color3.fromRGB(0, 30, 45)),
+		ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 15, 25))
 	}),
-	["Color Hub 2"] = Color3.fromRGB(20, 20, 20),
-	["Color Stroke"] = Color3.fromRGB(50, 50, 50),
-	["Color Theme"] = Color3.fromRGB(220, 0, 0),
-	["Color Text"] = Color3.fromRGB(255, 255, 255),
-	["Color Dark Text"] = Color3.fromRGB(180, 180, 180)
+	["Color Hub 2"] = Color3.fromRGB(0, 20, 30),
+	["Color Stroke"] = Color3.fromRGB(0, 80, 120),
+	["Color Theme"] = Color3.fromRGB(0, 150, 220),
+	["Color Text"] = Color3.fromRGB(170, 230, 255),
+	["Color Dark Text"] = Color3.fromRGB(120, 200, 240)
 },
 Dark = {
 	["Color Hub 1"] = ColorSequence.new({
-		ColorSequenceKeypoint.new(0.00, Color3.fromRGB(20, 20, 20)),
-		ColorSequenceKeypoint.new(0.50, Color3.fromRGB(35, 35, 35)),
-		ColorSequenceKeypoint.new(1.00, Color3.fromRGB(20, 20, 20))
+		ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 18, 28)),
+		ColorSequenceKeypoint.new(0.50, Color3.fromRGB(0, 35, 50)),
+		ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 18, 28))
 	}),
-	["Color Hub 2"] = Color3.fromRGB(25, 25, 25),
-	["Color Stroke"] = Color3.fromRGB(70, 70, 70),
-	["Color Theme"] = Color3.fromRGB(255, 0, 0),
-	["Color Text"] = Color3.fromRGB(255, 255, 255),
-	["Color Dark Text"] = Color3.fromRGB(200, 200, 200)
+	["Color Hub 2"] = Color3.fromRGB(0, 25, 35),
+	["Color Stroke"] = Color3.fromRGB(0, 100, 150),
+	["Color Theme"] = Color3.fromRGB(0, 170, 255),
+	["Color Text"] = Color3.fromRGB(180, 240, 255),
+	["Color Dark Text"] = Color3.fromRGB(140, 220, 255)
 },
-Red = {
+Blue = {
 	["Color Hub 1"] = ColorSequence.new({
-		ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 25, 25)),
-		ColorSequenceKeypoint.new(0.50, Color3.fromRGB(45, 45, 45)),
-		ColorSequenceKeypoint.new(1.00, Color3.fromRGB(25, 25, 25))
+		ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 20, 30)),
+		ColorSequenceKeypoint.new(0.50, Color3.fromRGB(0, 40, 60)),
+		ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 20, 30))
 	}),
-	["Color Hub 2"] = Color3.fromRGB(35, 35, 35),
-	["Color Stroke"] = Color3.fromRGB(90, 90, 90),
-	["Color Theme"] = Color3.fromRGB(255, 0, 0),
-	["Color Text"] = Color3.fromRGB(255, 255, 255),
-	["Color Dark Text"] = Color3.fromRGB(220, 220, 220),
-	["Color Dark Red"] = Color3.fromRGB(210, 0, 0),
+	["Color Hub 2"] = Color3.fromRGB(0, 30, 45),
+	["Color Stroke"] = Color3.fromRGB(0, 120, 180),
+	["Color Theme"] = Color3.fromRGB(0, 180, 255),
+	["Color Text"] = Color3.fromRGB(190, 240, 255),
+	["Color Dark Text"] = Color3.fromRGB(150, 220, 255),
+	["Color Dark Blue"] = Color3.fromRGB(0, 140, 210),
 	["Color Hub 9"] = Color3.fromRGB(0, 0, 0),
-	["Color Dark Crimson"] = Color3.fromRGB(220, 0, 0)
+	["Color Dark Cyan"] = Color3.fromRGB(0, 160, 220)
+},
+DarkRed = {
+	["Color Hub 1"] = ColorSequence.new({
+		ColorSequenceKeypoint.new(0.00, Color3.fromRGB(15, 0, 0)),
+		ColorSequenceKeypoint.new(0.50, Color3.fromRGB(30, 0, 0)),
+		ColorSequenceKeypoint.new(1.00, Color3.fromRGB(15, 0, 0))
+	}),
+	["Color Hub 2"] = Color3.fromRGB(20, 0, 0),
+	["Color Stroke"] = Color3.fromRGB(80, 0, 0),
+	["Color Theme"] = Color3.fromRGB(150, 0, 0),
+	["Color Text"] = Color3.fromRGB(255, 255, 255),
+	["Color Dark Text"] = Color3.fromRGB(200, 200, 200),
+	["Color Dark Blue"] = Color3.fromRGB(140, 0, 0),
+	["Color Hub 9"] = Color3.fromRGB(0, 0, 0),
+	["Color Dark Cyan"] = Color3.fromRGB(160, 0, 0)
 }
 	},
 	Info = {
