@@ -60,11 +60,6 @@ Red = {
 		TabSize = 160,
 		Theme = "Red"
 	},
-	Save = {
-		UISize = {550, 380},
-		TabSize = 160,
-		Theme = "Red"
-	},
 	Settings = {},
 	Connection = {},
 	Instances = {},
