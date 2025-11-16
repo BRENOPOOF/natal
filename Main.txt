@@ -1,5 +1,5 @@
--- Minha Versão única - Magnus Modificações 
--- Se tive outro igual, é meu remake rsrsrs
+--Minha Versão única - Magnus Modificações 
+--Ser tive outro igual, e meu ramake rsrsrs
 local MarketplaceService = game:GetService("MarketplaceService")
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
@@ -14,42 +14,42 @@ local redzlib = {
 	Themes = {
 		Darker = {
 			["Color Hub 1"] = ColorSequence.new({
-				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(40, 0, 0)),  -- Vermelho escuro
-				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(60, 0, 0)),  -- Vermelho médio
-				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(40, 0, 0))   -- Vermelho escuro
+				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(10, 10, 10)),
+				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(20, 20, 20)),
+				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(10, 10, 10))
 			}),
-			["Color Hub 2"] = Color3.fromRGB(50, 0, 0),  -- Vermelho escuro sólido
-			["Color Stroke"] = Color3.fromRGB(100, 0, 0), -- Vermelho mais claro para bordas
-			["Color Theme"] = Color3.fromRGB(255, 0, 0), -- Vermelho mais forte
-			["Color Text"] = Color3.fromRGB(255, 255, 255), -- Branco mais forte
-			["Color Dark Text"] = Color3.fromRGB(255, 100, 100) -- Vermelho claro para texto secundário
+			["Color Hub 2"] = Color3.fromRGB(15, 15, 15),
+			["Color Stroke"] = Color3.fromRGB(40, 40, 40),
+			["Color Theme"] = Color3.fromRGB(255, 255, 255),
+			["Color Text"] = Color3.fromRGB(240, 240, 240),
+			["Color Dark Text"] = Color3.fromRGB(180, 20, 30)
 		},
 		Dark = {
 			["Color Hub 1"] = ColorSequence.new({
-				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(50, 0, 0)),  -- Vermelho escuro
-				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(70, 0, 0)),  -- Vermelho médio
-				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(50, 0, 0))   -- Vermelho escuro
+				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(15, 15, 15)),
+				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(25, 25, 25)),
+				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(15, 15, 15))
 			}),
-			["Color Hub 2"] = Color3.fromRGB(60, 0, 0),  -- Vermelho escuro sólido
-			["Color Stroke"] = Color3.fromRGB(120, 0, 0), -- Vermelho mais claro para bordas
-			["Color Theme"] = Color3.fromRGB(255, 0, 0), -- Vermelho mais forte
-			["Color Text"] = Color3.fromRGB(255, 255, 255), -- Branco mais forte
-			["Color Dark Text"] = Color3.fromRGB(255, 120, 120) -- Vermelho claro para texto secundário
+			["Color Hub 2"] = Color3.fromRGB(20, 20, 20),
+			["Color Stroke"] = Color3.fromRGB(50, 50, 50),
+			["Color Theme"] = Color3.fromRGB(255, 255, 255),
+			["Color Text"] = Color3.fromRGB(245, 245, 245),
+			["Color Dark Text"] = Color3.fromRGB(190, 25, 35)
 		},
 		BlackWhite = {
 			["Color Hub 1"] = ColorSequence.new({
-				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(30, 0, 0)),  -- Vermelho muito escuro
-				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(50, 0, 0)),  -- Vermelho escuro
-				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(30, 0, 0))   -- Vermelho muito escuro
+				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(5, 5, 5)),
+				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(15, 15, 15)),
+				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(5, 5, 5))
 			}),
-			["Color Hub 2"] = Color3.fromRGB(40, 0, 0),  -- Vermelho muito escuro sólido
-			["Color Stroke"] = Color3.fromRGB(150, 0, 0), -- Vermelho para bordas
-			["Color Theme"] = Color3.fromRGB(255, 0, 0), -- Vermelho mais forte
-			["Color Text"] = Color3.fromRGB(255, 255, 255), -- Branco mais forte
-			["Color Dark Text"] = Color3.fromRGB(255, 150, 150), -- Vermelho claro para texto secundário
-			["Color Dark Blue"] = Color3.fromRGB(255, 100, 100), -- Vermelho para elementos especiais
-			["Color Hub 9"] = Color3.fromRGB(20, 0, 0),  -- Vermelho quase preto
-			["Color Dark Cyan"] = Color3.fromRGB(255, 80, 80) -- Vermelho para subtítulos
+			["Color Hub 2"] = Color3.fromRGB(10, 10, 10),
+			["Color Stroke"] = Color3.fromRGB(60, 60, 60),
+			["Color Theme"] = Color3.fromRGB(255, 255, 255),
+			["Color Text"] = Color3.fromRGB(255, 255, 255),
+			["Color Dark Text"] = Color3.fromRGB(200, 30, 40),
+			["Color Dark Blue"] = Color3.fromRGB(200, 30, 40),
+			["Color Hub 9"] = Color3.fromRGB(0, 0, 0),
+			["Color Dark Cyan"] = Color3.fromRGB(200, 30, 40)
 		}
 	},
 	Info = {
@@ -456,7 +456,7 @@ local redzlib = {
 			["folders"] = "rbxassetid://10723387721",
 			["forminput"] = "rbxassetid://10723387841",
 			["forward"] = "rbxassetid://10723388016",
-				["frame"] = "rbxassetid://10723394389",
+			["frame"] = "rbxassetid://10723394389",
 			["framer"] = "rbxassetid://10723394565",
 			["frown"] = "rbxassetid://10723394681",
 			["fuel"] = "rbxassetid://10723394846",
@@ -1666,14 +1666,12 @@ function redzlib:MakeWindow(Configs)
 		ClipsDescendants = true
 	})
 	
-	-- Configurações otimizadas das partículas
 	local ParticleConfig = {
-		MaxParticles = 50, -- Aumentado para mais partículas
-		SpawnRate = 0.03, -- Mais rápido
-		ParticleSize = {Min = 8, Max = 15}, -- Tamanho muito maior para melhor visualização
-		ParticleSpeed = {Min = 25, Max = 45}, -- Velocidade maior
-		ParticleLifetime = 4, -- Tempo de vida aumentado
-		FadeOutTime = 0.5 -- Tempo de fade out
+		MaxParticles = 30,
+		SpawnRate = 0.1,
+		ParticleSize = {Min = 2, Max = 4},
+		ParticleSpeed = {Min = 6, Max = 12},
+		ParticleLifetime = 6
 	}
 
 	local ActiveParticles = {}
@@ -1689,44 +1687,65 @@ function redzlib:MakeWindow(Configs)
 		local size = math.random(ParticleConfig.ParticleSize.Min, ParticleConfig.ParticleSize.Max)
 		local speed = math.random(ParticleConfig.ParticleSpeed.Min, ParticleConfig.ParticleSpeed.Max)
 		
-		-- Usando a imagem específica fornecida com cor branca pura
-		local Particle = Create("ImageLabel", ParticleContainer, {
+		-- Partículas brancas
+		local particleColor = Color3.fromRGB(255, 255, 255)
+		
+		local Particle = Create("Frame", ParticleContainer, {
 			Size = UDim2.fromOffset(size, size),
 			Position = UDim2.fromOffset(startX, startY),
-			Image = "rbxassetid://15446088530", -- ID específico fornecido
-			ImageColor3 = Color3.fromRGB(255, 255, 255), -- Branco puro
-			BackgroundTransparency = 1,
+			BackgroundColor3 = particleColor,
+			BackgroundTransparency = 0.2,
 			BorderSizePixel = 0
+		})
+		
+		Create("UICorner", Particle, {
+			CornerRadius = UDim.new(0.5, 0)
+		})
+		
+		local Glow = Create("Frame", Particle, {
+			Size = UDim2.new(1, 6, 1, 6),
+			Position = UDim2.new(0.5, 0, 0.5, 0),
+			AnchorPoint = Vector2.new(0.5, 0.5),
+			BackgroundColor3 = particleColor,
+			BackgroundTransparency = 0.7,
+			ZIndex = -1
+		})
+		
+		Create("UICorner", Glow, {
+			CornerRadius = UDim.new(0.5, 0)
 		})
 		
 		local ParticleData = {
 			Frame = Particle,
+			Glow = Glow,
 			StartTime = tick(),
 			Speed = speed,
 			Direction = Vector2.new(0, -speed),
-			Size = size
+			OriginalColor = particleColor
 		}
 		
-		Particle.ImageTransparency = 0
+		Particle.BackgroundTransparency = 1
+		Glow.BackgroundTransparency = 1
+		CreateTween({Particle, "BackgroundTransparency", 0.2, 0.8})
+		CreateTween({Glow, "BackgroundTransparency", 0.7, 0.8})
+		
 		table.insert(ActiveParticles, ParticleData)
 	end
 
 	local function UpdateCyberpunkParticles()
 		local containerSize = ParticleContainer.AbsoluteSize
-		local currentTime = tick()
 		
 		for i = #ActiveParticles, 1, -1 do
 			local particle = ActiveParticles[i]
-			local elapsed = currentTime - particle.StartTime
-			
+			local elapsed = tick() - particle.StartTime
 			if elapsed >= ParticleConfig.ParticleLifetime or 
 			   particle.Frame.Position.Y.Offset < -20 then
 
-				-- Fade out rápido
-				CreateTween({particle.Frame, "ImageTransparency", 1, ParticleConfig.FadeOutTime})
+				CreateTween({particle.Frame, "BackgroundTransparency", 1, 0.5})
+				CreateTween({particle.Glow, "BackgroundTransparency", 1, 0.5})
 				
 				task.spawn(function()
-					task.wait(ParticleConfig.FadeOutTime)
+					task.wait(0.5)
 					if particle.Frame and particle.Frame.Parent then
 						particle.Frame:Destroy()
 					end
@@ -1738,43 +1757,26 @@ function redzlib:MakeWindow(Configs)
 				local newY = currentPos.Y.Offset + particle.Direction.Y * 0.016
 				
 				particle.Frame.Position = UDim2.fromOffset(currentPos.X.Offset, newY)
-				
-				-- Iniciar fade out nos últimos 0.5 segundos
 				local lifeRatio = elapsed / ParticleConfig.ParticleLifetime
 				if lifeRatio > 0.8 then
-					local fadeAlpha = (lifeRatio - 0.8) / 0.2
-					particle.Frame.ImageTransparency = fadeAlpha
+					local fadeAlpha = 0.2 * (1 - ((lifeRatio - 0.8) / 0.2))
+					particle.Frame.BackgroundTransparency = math.max(1 - fadeAlpha, 0.95)
 				end
 			end
 		end
 	end
 
 	local function SpawnCyberpunkSystem()
-		if currentTime - LastSpawn >= ParticleConfig.SpawnRate and MainFrame.Visible then
+		if tick() - LastSpawn >= ParticleConfig.SpawnRate and MainFrame.Visible then
 			CreateCyberpunkParticle()
-			LastSpawn = currentTime
+			LastSpawn = tick()
 		end
 	end
 
-	local ParticleConnection
-	local function StartParticleSystem()
-		if ParticleConnection then
-			ParticleConnection:Disconnect()
-		end
-		
-		ParticleConnection = RunService.Heartbeat:Connect(function()
-			local currentTime = tick()
-			UpdateCyberpunkParticles()
-			
-			if currentTime - LastSpawn >= ParticleConfig.SpawnRate and MainFrame.Visible then
-				CreateCyberpunkParticle()
-				LastSpawn = currentTime
-			end
-		end)
-	end
-
-	-- Iniciar o sistema de partículas
-	StartParticleSystem()
+	local ParticleConnection = RunService.Heartbeat:Connect(function()
+		UpdateCyberpunkParticles()
+		SpawnCyberpunkSystem()
+	end)
 
 	local ControlSize1, ControlSize2 = MakeDrag(Create("ImageButton", MainFrame, {
 		Size = UDim2.new(0, 35, 0, 35),
@@ -1896,15 +1898,24 @@ function redzlib:MakeWindow(Configs)
 
 	function Window:SetThemeParticles(enabled)
 		if enabled then
+			if not ParticleConnection then
+				ParticleConnection = RunService.Heartbeat:Connect(function()
+					UpdateCyberpunkParticles()
+					SpawnCyberpunkSystem()
+				end)
+			end
 			ParticleContainer.Visible = true
-			StartParticleSystem()
 		else
-			ParticleContainer.Visible = false
 			if ParticleConnection then
 				ParticleConnection:Disconnect()
 				ParticleConnection = nil
 			end
+			ParticleContainer.Visible = false
 		end
+	end
+
+	function Window:Minimize()
+		MainFrame.Visible = not MainFrame.Visible
 	end
 
 	function Window:AddMinimizeButton(Configs)
@@ -2942,7 +2953,7 @@ function redzlib:MakeWindow(Configs)
 			local BannerArea = Create("ImageLabel", MainFrame, {
 				Size = UDim2.new(1, 0, 0.28, 0),
 				Image = BannerImage,
-				BackgroundColor3 = Color3.fromRGB(200, 0, 0), -- Vermelho mais forte
+				BackgroundColor3 = Color3.fromRGB(200, 30, 40),
 				BackgroundTransparency = BannerImage ~= "" and 1 or 0,
 				ScaleType = Enum.ScaleType.Crop
 			})
@@ -2952,8 +2963,8 @@ function redzlib:MakeWindow(Configs)
 				local BannerGradient = Create("UIGradient", BannerArea, {
 					Rotation = -15,
 					Color = ColorSequence.new({
-						ColorSequenceKeypoint.new(0, Color3.fromRGB(180, 0, 0)), -- Vermelho mais escuro
-						ColorSequenceKeypoint.new(1, Color3.fromRGB(220, 0, 0)) -- Vermelho mais forte
+						ColorSequenceKeypoint.new(0, Color3.fromRGB(180, 20, 30)),
+						ColorSequenceKeypoint.new(1, Color3.fromRGB(220, 40, 50))
 					})
 				})
 			end
@@ -3077,7 +3088,7 @@ function redzlib:MakeWindow(Configs)
 				Text = "Join Server",
 				Font = Enum.Font.GothamBold,
 				TextSize = 10,
-				BackgroundColor3 = Color3.fromRGB(200, 0, 0), -- Vermelho mais forte
+				BackgroundColor3 = Color3.fromRGB(200, 30, 40),
 				TextColor3 = Theme["Color Text"]
 			}), "Text")
 			Make("Corner", JoinButton, UDim.new(0.5, 0))
