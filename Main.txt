@@ -20,9 +20,9 @@ local redzlib = {
 			}),
 			["Color Hub 2"] = Color3.fromRGB(25, 25, 25),
 			["Color Stroke"] = Color3.fromRGB(60, 60, 60),
-			["Color Theme"] = Color3.fromRGB(65, 105, 225), -- Azul royal (substitui vermelho)
+			["Color Theme"] = Color3.fromRGB(255, 0, 0), -- Vermelho mais forte
 			["Color Text"] = Color3.fromRGB(255, 255, 255), -- Branco mais forte
-			["Color Dark Text"] = Color3.fromRGB(100, 149, 237) -- Azul claro (substitui vermelho escuro)
+			["Color Dark Text"] = Color3.fromRGB(180, 0, 0) -- Vermelho escuro mais forte
 		},
 		Dark = {
 			["Color Hub 1"] = ColorSequence.new({
@@ -32,9 +32,9 @@ local redzlib = {
 			}),
 			["Color Hub 2"] = Color3.fromRGB(30, 30, 30),
 			["Color Stroke"] = Color3.fromRGB(70, 70, 70),
-			["Color Theme"] = Color3.fromRGB(70, 130, 255), -- Azul médio (substitui vermelho)
+			["Color Theme"] = Color3.fromRGB(255, 0, 0), -- Vermelho mais forte
 			["Color Text"] = Color3.fromRGB(255, 255, 255), -- Branco mais forte
-			["Color Dark Text"] = Color3.fromRGB(120, 170, 255) -- Azul mais claro (substitui vermelho escuro)
+			["Color Dark Text"] = Color3.fromRGB(190, 0, 0) -- Vermelho escuro mais forte
 		},
 		BlackWhite = {
 			["Color Hub 1"] = ColorSequence.new({
@@ -44,12 +44,12 @@ local redzlib = {
 			}),
 			["Color Hub 2"] = Color3.fromRGB(20, 20, 20),
 			["Color Stroke"] = Color3.fromRGB(80, 80, 80),
-			["Color Theme"] = Color3.fromRGB(30, 144, 255), -- Azul dodger (substitui vermelho)
+			["Color Theme"] = Color3.fromRGB(255, 0, 0), -- Vermelho mais forte
 			["Color Text"] = Color3.fromRGB(255, 255, 255), -- Branco mais forte
-			["Color Dark Text"] = Color3.fromRGB(135, 206, 250), -- Azul claro (substitui vermelho escuro)
-			["Color Dark Blue"] = Color3.fromRGB(70, 130, 180), -- Azul aço (substitui vermelho escuro)
+			["Color Dark Text"] = Color3.fromRGB(200, 0, 0), -- Vermelho escuro mais forte
+			["Color Dark Blue"] = Color3.fromRGB(200, 0, 0), -- Vermelho escuro mais forte
 			["Color Hub 9"] = Color3.fromRGB(10, 10, 10),
-			["Color Dark Cyan"] = Color3.fromRGB(0, 191, 255) -- Azul profundo (substitui vermelho escuro)
+			["Color Dark Cyan"] = Color3.fromRGB(200, 0, 0) -- Vermelho escuro mais forte
 		}
 	},
 	Info = {
@@ -1689,12 +1689,12 @@ function redzlib:MakeWindow(Configs)
 		local size = math.random(ParticleConfig.ParticleSize.Min, ParticleConfig.ParticleSize.Max)
 		local speed = math.random(ParticleConfig.ParticleSpeed.Min, ParticleConfig.ParticleSpeed.Max)
 		
-		-- Usando a imagem específica fornecida com cor azul
+		-- Usando a imagem específica fornecida com cor branca pura
 		local Particle = Create("ImageLabel", ParticleContainer, {
 			Size = UDim2.fromOffset(size, size),
 			Position = UDim2.fromOffset(startX, startY),
 			Image = "rbxassetid://15446088530", -- ID específico fornecido
-			ImageColor3 = Color3.fromRGB(100, 149, 237), -- Azul claro
+			ImageColor3 = Color3.fromRGB(255, 255, 255), -- Branco puro
 			BackgroundTransparency = 1,
 			BorderSizePixel = 0
 		})
@@ -2256,7 +2256,7 @@ function redzlib:MakeWindow(Configs)
 				Position = UDim2.new(1, -10, 0.5),
 				AnchorPoint = Vector2.new(1, 0.5),
 				BackgroundTransparency = 1,
-				Image = "rbxassetid://"
+				Image = "rbxassetid://15482851538"
 			})
 			
 			FButton.Activated:Connect(function()
@@ -2942,7 +2942,7 @@ function redzlib:MakeWindow(Configs)
 			local BannerArea = Create("ImageLabel", MainFrame, {
 				Size = UDim2.new(1, 0, 0.28, 0),
 				Image = BannerImage,
-				BackgroundColor3 = Color3.fromRGB(70, 130, 180), -- Azul aço (substitui vermelho)
+				BackgroundColor3 = Color3.fromRGB(200, 0, 0), -- Vermelho mais forte
 				BackgroundTransparency = BannerImage ~= "" and 1 or 0,
 				ScaleType = Enum.ScaleType.Crop
 			})
@@ -2952,8 +2952,8 @@ function redzlib:MakeWindow(Configs)
 				local BannerGradient = Create("UIGradient", BannerArea, {
 					Rotation = -15,
 					Color = ColorSequence.new({
-						ColorSequenceKeypoint.new(0, Color3.fromRGB(65, 105, 225)), -- Azul royal
-						ColorSequenceKeypoint.new(1, Color3.fromRGB(100, 149, 237)) -- Azul claro
+						ColorSequenceKeypoint.new(0, Color3.fromRGB(180, 0, 0)), -- Vermelho mais escuro
+						ColorSequenceKeypoint.new(1, Color3.fromRGB(220, 0, 0)) -- Vermelho mais forte
 					})
 				})
 			end
@@ -3077,7 +3077,7 @@ function redzlib:MakeWindow(Configs)
 				Text = "Join Server",
 				Font = Enum.Font.GothamBold,
 				TextSize = 10,
-				BackgroundColor3 = Color3.fromRGB(65, 105, 225), -- Azul royal (substitui vermelho)
+				BackgroundColor3 = Color3.fromRGB(200, 0, 0), -- Vermelho mais forte
 				TextColor3 = Theme["Color Text"]
 			}), "Text")
 			Make("Corner", JoinButton, UDim.new(0.5, 0))
