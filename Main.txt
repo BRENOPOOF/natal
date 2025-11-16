@@ -3014,16 +3014,16 @@ return{
 Dark={
 Name="Dark",
 
-Accent=Color3.fromHex"#18181b",
-Dialog=Color3.fromHex"#161616",
-Outline=Color3.fromHex"#FFFFFF",
-Text=Color3.fromHex"#FFFFFF",
-Placeholder=Color3.fromHex"#7a7a7a",
-Background=Color3.fromHex"#101010",
-Button=Color3.fromHex"#52525b",
-Icon=Color3.fromHex"#a1a1aa",
-Toggle=Color3.fromHex"#33C759",
-Checkbox=Color3.fromHex"#0091ff",
+Accent=Color3.fromHex"#1e3a8a",
+Dialog=Color3.fromHex"#1e40af",
+Outline=Color3.fromHex"#dbeafe",
+Text=Color3.fromHex"#ffffff",
+Placeholder=Color3.fromHex"#93c5fd",
+Background=Color3.fromHex"#0f172a",
+Button=Color3.fromHex"#2563eb",
+Icon=Color3.fromHex"#60a5fa",
+Toggle=Color3.fromHex"#3b82f6",
+Checkbox=Color3.fromHex"#0284c7",
 },
 Light={
 Name="Light",
@@ -7400,9 +7400,9 @@ ZIndex=99999,
 ae("UIGradient",{
 Rotation=45,
 Color=ColorSequence.new{
-ColorSequenceKeypoint.new(0.0,Color3.fromRGB(150, 210, 255)),
-ColorSequenceKeypoint.new(0.5,Color3.fromRGB(70, 150, 230)),
-ColorSequenceKeypoint.new(1.0,Color3.fromRGB(20, 60, 140)),
+ColorSequenceKeypoint.new(0.0,Color3.fromRGB(255,255,255)),
+ColorSequenceKeypoint.new(0.5,Color3.fromRGB(255,255,255)),
+ColorSequenceKeypoint.new(1.0,Color3.fromRGB(255,255,255)),
 },
 Transparency=NumberSequence.new{
 NumberSequenceKeypoint.new(0.0,0.1),
@@ -7529,9 +7529,9 @@ ZIndex=99999,
 ae("UIGradient",{
 Rotation=60,
 Color=ColorSequence.new{
-ColorSequenceKeypoint.new(0.0,Color3.fromRGB(150, 210, 255)),
-ColorSequenceKeypoint.new(0.5,Color3.fromRGB(70, 150, 230)),
-ColorSequenceKeypoint.new(1.0,Color3.fromRGB(20, 60, 140)),
+ColorSequenceKeypoint.new(0.0,Color3.fromRGB(255,255,255)),
+ColorSequenceKeypoint.new(0.5,Color3.fromRGB(255,255,255)),
+ColorSequenceKeypoint.new(1.0,Color3.fromRGB(255,255,255)),
 },
 Transparency=NumberSequence.new{
 NumberSequenceKeypoint.new(0.0,0.1),
@@ -8541,9 +8541,9 @@ Name="Outline"
 ag("UIGradient",{
 Rotation=80,
 Color=ColorSequence.new{
-ColorSequenceKeypoint.new(0.0,Color3.fromRGB(150, 210, 255)),
-ColorSequenceKeypoint.new(0.5,Color3.fromRGB(70, 150, 230)),
-ColorSequenceKeypoint.new(1.0,Color3.fromRGB(20, 60, 140))),
+ColorSequenceKeypoint.new(0.0,Color3.fromRGB(255,255,255)),
+ColorSequenceKeypoint.new(0.5,Color3.fromRGB(255,255,255)),
+ColorSequenceKeypoint.new(1.0,Color3.fromRGB(255,255,255)),
 },
 Transparency=NumberSequence.new{
 NumberSequenceKeypoint.new(0.0,0.1),
@@ -10022,9 +10022,9 @@ Name="Outline"
 aj("UIGradient",{
 Rotation=78,
 Color=ColorSequence.new{
-ColorSequenceKeypoint.new(0.0,Color3.fromRGB(150, 210, 255)),
-ColorSequenceKeypoint.new(0.5,Color3.fromRGB70, 150, 230)),
-ColorSequenceKeypoint.new(1.0,Color3.fromRGB(20, 60, 140)),
+ColorSequenceKeypoint.new(0.0,Color3.fromRGB(255,255,255)),
+ColorSequenceKeypoint.new(0.5,Color3.fromRGB(255,255,255)),
+ColorSequenceKeypoint.new(1.0,Color3.fromRGB(255,255,255)),
 },
 Transparency=NumberSequence.new{
 NumberSequenceKeypoint.new(0.0,0.1),
@@ -10510,9 +10510,9 @@ Name="Outline"
 aj("UIGradient",{
 Rotation=45,
 Color=ColorSequence.new{
-ColorSequenceKeypoint.new(0.0,Color3.fromRGB(150, 210, 255)),
-ColorSequenceKeypoint.new(0.5,Color3.fromRGB(70, 150, 230)),
-ColorSequenceKeypoint.new(1.0,Color3.fromRGB(20, 60, 140)),
+ColorSequenceKeypoint.new(0.0,Color3.fromRGB(255,255,255)),
+ColorSequenceKeypoint.new(0.5,Color3.fromRGB(255,255,255)),
+ColorSequenceKeypoint.new(1.0,Color3.fromRGB(255,255,255)),
 },
 Transparency=NumberSequence.new{
 NumberSequenceKeypoint.new(0.0,0.1),
