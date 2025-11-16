@@ -14,42 +14,42 @@ local redzlib = {
 	Themes = {
 Darker = {
 	["Color Hub 1"] = ColorSequence.new({
-		ColorSequenceKeypoint.new(0.00, Color3.fromRGB(80, 0, 0)),    -- Vermelho escuro
-		ColorSequenceKeypoint.new(0.50, Color3.fromRGB(120, 0, 0)),   -- Vermelho médio escuro
-		ColorSequenceKeypoint.new(1.00, Color3.fromRGB(80, 0, 0))     -- Vermelho escuro
+		ColorSequenceKeypoint.new(0.00, Color3.fromRGB(80, 0, 0)),
+		ColorSequenceKeypoint.new(0.50, Color3.fromRGB(120, 0, 0)),
+		ColorSequenceKeypoint.new(1.00, Color3.fromRGB(80, 0, 0))
 	}),
-	["Color Hub 2"] = Color3.fromRGB(100, 0, 0),                     -- Vermelho escuro sólido
-	["Color Stroke"] = Color3.fromRGB(150, 0, 0),                    -- Borda vermelha
+	["Color Hub 2"] = Color3.fromRGB(100, 0, 0),
+	["Color Stroke"] = Color3.fromRGB(150, 0, 0),
 	["Color Theme"] = Color3.fromRGB(255, 255, 255),
 	["Color Text"] = Color3.fromRGB(240, 240, 240),
-	["Color Dark Text"] = Color3.fromRGB(255, 50, 50)                -- Vermelho mais vivo para texto
+	["Color Dark Text"] = Color3.fromRGB(255, 50, 50)
 },
 Dark = {
 	["Color Hub 1"] = ColorSequence.new({
-		ColorSequenceKeypoint.new(0.00, Color3.fromRGB(100, 0, 0)),   -- Vermelho escuro
-		ColorSequenceKeypoint.new(0.50, Color3.fromRGB(140, 0, 0)),   -- Vermelho médio
-		ColorSequenceKeypoint.new(1.00, Color3.fromRGB(100, 0, 0))    -- Vermelho escuro
+		ColorSequenceKeypoint.new(0.00, Color3.fromRGB(100, 0, 0)),
+		ColorSequenceKeypoint.new(0.50, Color3.fromRGB(140, 0, 0)),
+		ColorSequenceKeypoint.new(1.00, Color3.fromRGB(100, 0, 0))
 	}),
-	["Color Hub 2"] = Color3.fromRGB(120, 0, 0),                     -- Vermelho escuro sólido
-	["Color Stroke"] = Color3.fromRGB(180, 0, 0),                    -- Borda vermelha
+	["Color Hub 2"] = Color3.fromRGB(120, 0, 0),
+	["Color Stroke"] = Color3.fromRGB(180, 0, 0),
 	["Color Theme"] = Color3.fromRGB(255, 255, 255),
 	["Color Text"] = Color3.fromRGB(245, 245, 245),
-	["Color Dark Text"] = Color3.fromRGB(255, 60, 60)                -- Vermelho mais vivo para texto
+	["Color Dark Text"] = Color3.fromRGB(255, 60, 60)
 },
 BlackWhite = {
 	["Color Hub 1"] = ColorSequence.new({
-		ColorSequenceKeypoint.new(0.00, Color3.fromRGB(60, 0, 0)),    -- Vermelho muito escuro
-		ColorSequenceKeypoint.new(0.50, Color3.fromRGB(100, 0, 0)),   -- Vermelho escuro
-		ColorSequenceKeypoint.new(1.00, Color3.fromRGB(60, 0, 0))     -- Vermelho muito escuro
+		ColorSequenceKeypoint.new(0.00, Color3.fromRGB(60, 0, 0)),
+		ColorSequenceKeypoint.new(0.50, Color3.fromRGB(100, 0, 0)),
+		ColorSequenceKeypoint.new(1.00, Color3.fromRGB(60, 0, 0))
 	}),
-	["Color Hub 2"] = Color3.fromRGB(80, 0, 0),                      -- Vermelho muito escuro sólido
-	["Color Stroke"] = Color3.fromRGB(200, 0, 0),                    -- Borda vermelha forte
+	["Color Hub 2"] = Color3.fromRGB(80, 0, 0),
+	["Color Stroke"] = Color3.fromRGB(200, 0, 0),
 	["Color Theme"] = Color3.fromRGB(255, 255, 255),
 	["Color Text"] = Color3.fromRGB(255, 255, 255),
-	["Color Dark Text"] = Color3.fromRGB(255, 40, 40),               -- Vermelho para texto
-	["Color Dark Blue"] = Color3.fromRGB(200, 0, 0),                 -- Vermelho
-	["Color Hub 9"] = Color3.fromRGB(40, 0, 0),                      -- Vermelho muito escuro
-	["Color Dark Cyan"] = Color3.fromRGB(200, 0, 0)                  -- Vermelho
+	["Color Dark Text"] = Color3.fromRGB(255, 40, 40),
+	["Color Dark Blue"] = Color3.fromRGB(200, 0, 0),
+	["Color Hub 9"] = Color3.fromRGB(40, 0, 0),
+	["Color Dark Cyan"] = Color3.fromRGB(200, 0, 0)
 }
 	},
 	Info = {
@@ -1850,7 +1850,7 @@ function redzlib:MakeWindow(Configs)
 	function Window:CloseBtn()
 		local Dialog = Window:Dialog({
 			Title = "Close",
-			Text = "Deseja realmente fechar o Lyra Hub? Ele contém recursos essenciais e fechar agora pode interromper funções importantes, causar falhas ou perder suas configurações. Cuidado antes de prosseguir!",
+			Text = "Deseja realmente fechar o Zaxin Hub? Ele contém recursos essenciais e fechar agora pode interromper funções importantes, causar falhas ou perder suas configurações. Cuidado antes de prosseguir!",
 			Options = {
 				{"Confirm", function()
 					ScreenGui:Destroy()
@@ -2267,7 +2267,7 @@ function redzlib:MakeWindow(Configs)
 				Position = UDim2.new(1, -10, 0.5),
 				AnchorPoint = Vector2.new(1, 0.5),
 				BackgroundTransparency = 1,
-				Image = "rbxassetid://15482851538"
+				Image = "rbxassetid://94960314331053"
 			})
 			
 			FButton.Activated:Connect(function()
