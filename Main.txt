@@ -14,42 +14,45 @@ local redzlib = {
 	Themes = {
 		Darker = {
 			["Color Hub 1"] = ColorSequence.new({
-				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(20, 20, 20)),
-				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(30, 30, 30)),
-				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(20, 20, 20))
+				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 0, 0)),
+				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(45, 0, 0)),
+				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(25, 0, 0))
 			}),
-			["Color Hub 2"] = Color3.fromRGB(25, 25, 25),
-			["Color Stroke"] = Color3.fromRGB(60, 60, 60),
-			["Color Theme"] = Color3.fromRGB(255, 0, 0), -- Vermelho mais forte
-			["Color Text"] = Color3.fromRGB(255, 255, 255), -- Branco mais forte
-			["Color Dark Text"] = Color3.fromRGB(180, 0, 0) -- Vermelho escuro mais forte
+			["Color Hub 2"] = Color3.fromRGB(35, 0, 0),
+			["Color Stroke"] = Color3.fromRGB(80, 0, 0),
+			["Color Theme"] = Color3.fromRGB(255, 40, 40),
+			["Color Text"] = Color3.fromRGB(255, 255, 255),
+			["Color Dark Text"] = Color3.fromRGB(200, 100, 100),
+			["Color Dark Blue"] = Color3.fromRGB(180, 60, 60),
+			["Color Hub 9"] = Color3.fromRGB(20, 0, 0),
+			["Color Dark Cyan"] = Color3.fromRGB(160, 80, 80)
 		},
 		Dark = {
 			["Color Hub 1"] = ColorSequence.new({
-				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 25, 25)),
-				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(35, 35, 35)),
-				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(25, 25, 25))
+				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(30, 0, 0)),
+				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(50, 0, 0)),
+				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(30, 0, 0))
 			}),
-			["Color Hub 2"] = Color3.fromRGB(30, 30, 30),
-			["Color Stroke"] = Color3.fromRGB(70, 70, 70),
-			["Color Theme"] = Color3.fromRGB(255, 0, 0), -- Vermelho mais forte
-			["Color Text"] = Color3.fromRGB(255, 255, 255), -- Branco mais forte
-			["Color Dark Text"] = Color3.fromRGB(190, 0, 0) -- Vermelho escuro mais forte
+			["Color Hub 2"] = Color3.fromRGB(40, 0, 0),
+			["Color Stroke"] = Color3.fromRGB(90, 0, 0),
+			["Color Theme"] = Color3.fromRGB(255, 50, 50),
+			["Color Text"] = Color3.fromRGB(255, 255, 255),
+			["Color Dark Text"] = Color3.fromRGB(210, 110, 110)
 		},
 		BlackWhite = {
 			["Color Hub 1"] = ColorSequence.new({
-				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(15, 15, 15)),
-				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(25, 25, 25)),
-				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(15, 15, 15))
+				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(20, 0, 0)),
+				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(35, 0, 0)),
+				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(20, 0, 0))
 			}),
-			["Color Hub 2"] = Color3.fromRGB(20, 20, 20),
-			["Color Stroke"] = Color3.fromRGB(80, 80, 80),
-			["Color Theme"] = Color3.fromRGB(255, 0, 0), -- Vermelho mais forte
-			["Color Text"] = Color3.fromRGB(255, 255, 255), -- Branco mais forte
-			["Color Dark Text"] = Color3.fromRGB(200, 0, 0), -- Vermelho escuro mais forte
-			["Color Dark Blue"] = Color3.fromRGB(200, 0, 0), -- Vermelho escuro mais forte
-			["Color Hub 9"] = Color3.fromRGB(10, 10, 10),
-			["Color Dark Cyan"] = Color3.fromRGB(200, 0, 0) -- Vermelho escuro mais forte
+			["Color Hub 2"] = Color3.fromRGB(25, 0, 0),
+			["Color Stroke"] = Color3.fromRGB(100, 0, 0),
+			["Color Theme"] = Color3.fromRGB(255, 60, 60),
+			["Color Text"] = Color3.fromRGB(255, 255, 255),
+			["Color Dark Text"] = Color3.fromRGB(220, 120, 120),
+			["Color Dark Blue"] = Color3.fromRGB(200, 80, 80),
+			["Color Hub 9"] = Color3.fromRGB(15, 0, 0),
+			["Color Dark Cyan"] = Color3.fromRGB(180, 90, 90)
 		}
 	},
 	Info = {
@@ -456,11 +459,11 @@ local redzlib = {
 			["folders"] = "rbxassetid://10723387721",
 			["forminput"] = "rbxassetid://10723387841",
 			["forward"] = "rbxassetid://10723388016",
-			["frame"] = "rbxassetid://10723394389",
+				["frame"] = "rbxassetid://10723394389",
 			["framer"] = "rbxassetid://10723394565",
 			["frown"] = "rbxassetid://10723394681",
 			["fuel"] = "rbxassetid://10723394846",
-				["functionsquare"] = "rbxassetid://10723395041",
+			["functionsquare"] = "rbxassetid://10723395041",
 			["gamepad"] = "rbxassetid://10723395457",
 			["gamepad2"] = "rbxassetid://10723395215",
 			["gauge"] = "rbxassetid://10723395708",
