@@ -14,45 +14,42 @@ local redzlib = {
 	Themes = {
 		Darker = {
 			["Color Hub 1"] = ColorSequence.new({
-				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 0, 0)),
-				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(45, 0, 0)),
-				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(25, 0, 0))
+				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(40, 0, 0)),  -- Vermelho escuro
+				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(60, 0, 0)),  -- Vermelho médio
+				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(40, 0, 0))   -- Vermelho escuro
 			}),
-			["Color Hub 2"] = Color3.fromRGB(35, 0, 0),
-			["Color Stroke"] = Color3.fromRGB(80, 0, 0),
-			["Color Theme"] = Color3.fromRGB(255, 40, 40),
-			["Color Text"] = Color3.fromRGB(255, 255, 255),
-			["Color Dark Text"] = Color3.fromRGB(200, 100, 100),
-			["Color Dark Blue"] = Color3.fromRGB(180, 60, 60),
-			["Color Hub 9"] = Color3.fromRGB(20, 0, 0),
-			["Color Dark Cyan"] = Color3.fromRGB(160, 80, 80)
+			["Color Hub 2"] = Color3.fromRGB(50, 0, 0),  -- Vermelho escuro sólido
+			["Color Stroke"] = Color3.fromRGB(100, 0, 0), -- Vermelho mais claro para bordas
+			["Color Theme"] = Color3.fromRGB(255, 0, 0), -- Vermelho mais forte
+			["Color Text"] = Color3.fromRGB(255, 255, 255), -- Branco mais forte
+			["Color Dark Text"] = Color3.fromRGB(255, 100, 100) -- Vermelho claro para texto secundário
 		},
 		Dark = {
 			["Color Hub 1"] = ColorSequence.new({
-				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(30, 0, 0)),
-				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(50, 0, 0)),
-				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(30, 0, 0))
+				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(50, 0, 0)),  -- Vermelho escuro
+				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(70, 0, 0)),  -- Vermelho médio
+				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(50, 0, 0))   -- Vermelho escuro
 			}),
-			["Color Hub 2"] = Color3.fromRGB(40, 0, 0),
-			["Color Stroke"] = Color3.fromRGB(90, 0, 0),
-			["Color Theme"] = Color3.fromRGB(255, 50, 50),
-			["Color Text"] = Color3.fromRGB(255, 255, 255),
-			["Color Dark Text"] = Color3.fromRGB(210, 110, 110)
+			["Color Hub 2"] = Color3.fromRGB(60, 0, 0),  -- Vermelho escuro sólido
+			["Color Stroke"] = Color3.fromRGB(120, 0, 0), -- Vermelho mais claro para bordas
+			["Color Theme"] = Color3.fromRGB(255, 0, 0), -- Vermelho mais forte
+			["Color Text"] = Color3.fromRGB(255, 255, 255), -- Branco mais forte
+			["Color Dark Text"] = Color3.fromRGB(255, 120, 120) -- Vermelho claro para texto secundário
 		},
 		BlackWhite = {
 			["Color Hub 1"] = ColorSequence.new({
-				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(20, 0, 0)),
-				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(35, 0, 0)),
-				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(20, 0, 0))
+				ColorSequenceKeypoint.new(0.00, Color3.fromRGB(30, 0, 0)),  -- Vermelho muito escuro
+				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(50, 0, 0)),  -- Vermelho escuro
+				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(30, 0, 0))   -- Vermelho muito escuro
 			}),
-			["Color Hub 2"] = Color3.fromRGB(25, 0, 0),
-			["Color Stroke"] = Color3.fromRGB(100, 0, 0),
-			["Color Theme"] = Color3.fromRGB(255, 60, 60),
-			["Color Text"] = Color3.fromRGB(255, 255, 255),
-			["Color Dark Text"] = Color3.fromRGB(220, 120, 120),
-			["Color Dark Blue"] = Color3.fromRGB(200, 80, 80),
-			["Color Hub 9"] = Color3.fromRGB(15, 0, 0),
-			["Color Dark Cyan"] = Color3.fromRGB(180, 90, 90)
+			["Color Hub 2"] = Color3.fromRGB(40, 0, 0),  -- Vermelho muito escuro sólido
+			["Color Stroke"] = Color3.fromRGB(150, 0, 0), -- Vermelho para bordas
+			["Color Theme"] = Color3.fromRGB(255, 0, 0), -- Vermelho mais forte
+			["Color Text"] = Color3.fromRGB(255, 255, 255), -- Branco mais forte
+			["Color Dark Text"] = Color3.fromRGB(255, 150, 150), -- Vermelho claro para texto secundário
+			["Color Dark Blue"] = Color3.fromRGB(255, 100, 100), -- Vermelho para elementos especiais
+			["Color Hub 9"] = Color3.fromRGB(20, 0, 0),  -- Vermelho quase preto
+			["Color Dark Cyan"] = Color3.fromRGB(255, 80, 80) -- Vermelho para subtítulos
 		}
 	},
 	Info = {
